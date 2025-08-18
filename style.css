@@ -17,6 +17,14 @@ header {
   text-align: center;
 }
 
+.contenido img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+  margin: 10px center;
+}
+
 .carousel-container {
   padding: 20px;
   text-align: center;
@@ -99,4 +107,87 @@ a:hover{
 }
 h2{
   font-size: small;
+}
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #f4f4f4;
+}
+.main-navbar {
+  background-color: #f4f4f4;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.main-navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.main-navbar a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.main-navbar a:hover {
+  color: #007BFF;
+}
+.galeria-te {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin: 30px 0;
+}
+
+.te-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+}
+
+.te-item img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.te-item h2 {
+  font-size: 1.1em;
+  margin: 0;
+  text-align: center;
+}
+.flex-row {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.accordion-container {
+  flex: 1 1 300px;
+  max-width: 350px;
+  min-width: 200px;
+  font-size: 1em;
+}
+
+.carousel-container {
+  flex: 2 1 900px;
+  max-width: 1200px;
+  min-width: 600px;
+}
+
+.carousel-container img,
+.carousel-inner img {
+  max-height: 700px;
+  width: 100%;
+  object-fit: cover;
 }
